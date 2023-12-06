@@ -1,0 +1,37 @@
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+body{
+     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+#r1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    background-color: #C1CEFE;
+}
+
+.list-group-item{
+    border: none;
+    background-color: #C1CEFE;
+    text-align: start;
+}
+
+.card-hover-text{
+    display: none;
+}
+
+.card:hover .cd-text{
+    display: none;
+}
+
+.card:hover .card-hover-text{
+    display: block;
+}
